@@ -1,0 +1,83 @@
+[
+    {
+        "lang": "en", 
+        "sentiment": {
+            "score": 0.7, 
+            "type": "positive"
+        }, 
+        "time": 1, 
+        "timestamp": "2017-04-04T03:35:42.345"
+    }, 
+    {
+        "lang": "en", 
+        "sentiment": {
+            "score": 0.7, 
+            "type": "positive"
+        }, 
+        "time": 1, 
+        "timestamp": "2017-04-04T03:35:42.775"
+    }, 
+    {
+        "lang": "en", 
+        "sentiment": {
+            "score": 0.7, 
+            "type": "positive"
+        }, 
+        "time": 0, 
+        "timestamp": "2017-04-04T03:35:43.205"
+    }, 
+    {
+        "lang": "en", 
+        "sentiment": {
+            "score": -0.625, 
+            "type": "negative"
+        }, 
+        "time": 0, 
+        "timestamp": "2017-04-04T03:35:43.627"
+    }, 
+    {
+        "lang": "en", 
+        "sentiment": {
+            "score": 0.78, 
+            "type": "positive"
+        }, 
+        "time": 0, 
+        "timestamp": "2017-04-04T03:35:44.062"
+    }, 
+    {
+        "lang": "en", 
+        "sentiment": {
+            "score": 0.7333333333333334, 
+            "type": "positive"
+        }, 
+        "time": 0, 
+        "timestamp": "2017-04-04T03:35:44.500"
+    }, 
+    {
+        "lang": "en", 
+        "sentiment": {
+            "score": 0.9, 
+            "type": "positive"
+        }, 
+        "time": 0, 
+        "timestamp": "2017-04-04T03:35:44.932"
+    }, 
+    {
+        "lang": "en", 
+        "sentiment": {
+            "score": 0.0, 
+            "type": "neutral"
+        }, 
+        "time": 0, 
+        "timestamp": "2017-04-04T03:35:45.366"
+    }, 
+    {
+        "lang": "en", 
+        "sentiment": {
+            "score": 0.7, 
+            "type": "positive"
+        }, 
+        "time": 1, 
+        "timestamp": "2017-04-04T03:35:45.809"
+    }
+]
