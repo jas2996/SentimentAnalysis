@@ -11,7 +11,7 @@ import json
 main_api = 'https://api.dandelion.eu/datatxt/sent/v1/?lang=en&text='
 token = '/APIs&token=d0acc7074d2c43719e7f468a3739d80e'
 
-with open("data_edit.csv", "r") as dataFile:
+with open("data_edit1.csv", "r") as dataFile:
 	dataFileReader = csv.reader(dataFile)
 	tweetList = []
 	result = []
@@ -25,7 +25,7 @@ with open("data_edit.csv", "r") as dataFile:
 				#print(url + "\n") 
 				#json_data = requests.get(url).json()
 				json_data = (requests.get(url)).json()
-				print(json_data)
+				#print(json_data)
 				#if 'sentiment' in json_data:
 				#	s = json_data['lang']['sentiment']
 				result.append(json_data)
