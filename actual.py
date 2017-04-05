@@ -1,3 +1,9 @@
+#this python script makes the request to the api 
+#then it opens the csv file to parse it 
+#selects the 3rd coloumn with the tweet and loops through it 
+#makes the get reuqest and is resurned with the info stored in variable json_data
+#finally writes to a json formatted file 
+
 import requests
 import csv
 import json
