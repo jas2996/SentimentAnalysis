@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+    <script src="Script.js"></script>
+    <link href="Styles.css" rel="stylesheet" />
+</head>
+<body ng-app="myModule">
+    <div ng-controller="myController">
+        Sort By :
+        <select ng-model="sortColumn">
+            <option value="lang">Language</option>
+            <option value="sentiment.score">Score</option>
+            <option value="sentiment.type">Type</option>
+            <option value="tweet">Tweet</option>
+        </select>
+        <br /><br />
+        <table>
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Score</th>
+                    <th>Type</th>
+                    <th>Tweet</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="info in data | orderBy:sortColumn">
+                    <td>
+                        {{ info.lang }}
+                    </td>
+                    <td>
+                        {{ info.sentiment.score }}
+                    </td>
+                    <td>
+                        {{ info.sentiment.type }}
+                    </td>
+                    <td>
+                        {{ info.tweet }}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
